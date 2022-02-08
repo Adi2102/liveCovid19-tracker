@@ -1,0 +1,233 @@
+body {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+h1,
+p,
+h2 {
+  color: white;
+  padding-bottom: 5px;
+}
+
+/* h1 {
+  transition: 0s;
+  transform: scale(1.1);
+} */
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-flow: wrap;
+  padding-left: 60px;
+}
+
+.card {
+  width: calc(77% / 3);
+  margin: 2% 3% 0% 3%;
+  padding: 0%;
+  text-align: center;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+.card:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/** CARD ONE STARTS HERE **/
+.card__main {
+  height: 166px;
+  width: 320px;
+  margin: 0px 0px 0px 3px;
+  border-radius: 10px;
+  border: none;
+  align-items: center;
+  background-color: rgb(116, 116, 209);
+  cursor: pointer;
+}
+
+.card__name {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.card__name span {
+  top: 2px;
+  font-size: 17px;
+}
+
+.card__total {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card__small {
+  font-size: 35px;
+}
+
+/* CARD TWO STARTS HERE */
+.card__main1 {
+  height: 166px;
+  width: 320px;
+  margin: 0px 0px 0px 3px;
+  border-radius: 10px;
+  border: none;
+  align-items: center;
+  background-color: rgb(8, 138, 30);
+  cursor: pointer;
+}
+
+.card__name1 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.card__name1 span {
+  font-size: 15px;
+}
+
+.card__total1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card__small1 {
+  font-size: 35px;
+}
+
+/** CARD THREE STARTS HERE **/
+.card__main2 {
+  height: 166px;
+  width: 320px;
+  margin: 0px 0px 0px 3px;
+  border-radius: 10px;
+  border: none;
+  align-items: center;
+  background-color: rgb(255, 2, 2);
+  cursor: pointer;
+}
+
+.card__name2 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.card__name2 span {
+  font-size: 15px;
+}
+
+.card__total2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card__small2 {
+  font-size: 35px;
+}
+
+/** CARD FOUR STARTS HERE **/
+.card__main3 {
+  height: 166px;
+  width: 320px;
+  margin: 0px 0px 0px 3px;
+  border-radius: 10px;
+  border: none;
+  align-items: center;
+  background-color: rgb(230, 118, 14);
+  cursor: pointer;
+}
+
+.card__name3 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.card__name3 span {
+  font-size: 15px;
+}
+
+.card__total3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card__small3 {
+  font-size: 35px;
+}
+
+/** CARD FIVE STARTS HERE **/
+.card__main4 {
+  height: 166px;
+  width: 320px;
+  margin: 0px 0px 0px 3px;
+  border-radius: 10px;
+  border: none;
+  align-items: center;
+  background-color: rgb(46, 46, 189);
+  cursor: pointer;
+}
+
+.card__name4 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.card__name4 span {
+  top: 2px;
+  font-size: 15px;
+}
+
+.card__total4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card__small4 {
+  font-size: 35px;
+}
+
+/** CARD SIX STARTS HERE **/
+.card__main5 {
+  height: 166px;
+  width: 320px;
+  margin: 0px 0px 0px 3px;
+  border-radius: 10px;
+  border: none;
+  align-items: center;
+  background-color: rgb(202, 22, 148);
+  cursor: pointer;
+}
+
+.card__name5 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.card__name5 span {
+  top: 2px;
+  font-size: 15px;
+}
+
+.card__total5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card__small5 {
+  font-size: 22px;
+}
+
+.notice {
+  padding-top: 5px;
+  font-size: 20px;
+}
